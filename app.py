@@ -7,9 +7,9 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads'
 
 
 users = [
-    {"username": "yaacov", "password": "star", "uploaded_images": []},
-    {"username": "anaelle", "password": "star10", "uploaded_images": []},
-    {"username": "batsi", "password": "star20", "uploaded_images": []}
+    {"username": "yaacov", "password": "123", "uploaded_images": []},
+    {"username": "anaelle", "password": "456", "uploaded_images": []},
+    {"username": "batsi", "password": "789", "uploaded_images": []}
 ]
 
 @app.route("/")
